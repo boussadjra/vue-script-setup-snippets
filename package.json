@@ -1,0 +1,46 @@
+{
+  "name": "vue-script-setup-snippets",
+  "displayName": "Vue script setup snippets",
+  "description": "Snippets for script setup",
+  "version": "0.0.1",
+  "icon": "img/logo.png",
+  "author": "Boussadjra Brahim",
+  "publisher": "BoussadjraBrahim",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "keywords": [
+    "Vue",
+    "Vue 3",
+    "Vue script setup",
+    "Composition API",
+    "Vue Snippets"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boussadjra/vue-script-setup-snippets"
+  },
+  "bugs": {
+    "url": "https://github.com/boussadjra/vue-script-setup-snippets/issues"
+  }
+}

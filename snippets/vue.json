@@ -1,0 +1,30 @@
+{
+    "s-file": {
+        "prefix": "s-file",
+        "body": [
+            "<script setup>",
+            "</script>",
+            "<template>",
+            "</template>",
+            "",
+            "",
+            "<style scoped>",
+            "</style>"
+        ],
+        "description": "create vue script setup file content"
+    },
+    "s-file-ts": {
+        "prefix": "s-file-ts",
+        "body": [
+            "<script setup lang='ts'>",
+            "</script>",
+            "<template>",
+            "</template>",
+            "",
+            "",
+            "<style scoped>",
+            "</style>"
+        ],
+        "description": "create vue script setup file content with typescript"
+    }
+}
