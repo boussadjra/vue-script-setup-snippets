@@ -5,7 +5,7 @@
 
 <img alt="logo" src="/img/logo.png" width="200" height="200"/>
 
-In VSCode search for **`vue-script-setup-snippets`** and install it.
+In VSCode search for **`vue-script-setup-snippets`** extension and install it. or install directly from [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=BoussadjraBrahim.vue-script-setup-snippets)
 
 ## Features
 
