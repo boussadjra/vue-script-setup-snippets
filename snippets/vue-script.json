@@ -1,76 +1,76 @@
 {
-    "s-ref": {
-        "prefix": "s-ref",
+    "ss-ref": {
+        "prefix": "ss-ref",
         "body": [
             "const $1 = ref($2)"
         ],
         "description": "ref"
     },
-    "s-ref-ts": {
-        "prefix": "s-ref-ts",
+    "ss-ref-ts": {
+        "prefix": "ss-ref-ts",
         "body": [
             "const $1: Ref<$2> = ref($3)"
         ],
         "description": "ref with typescript"
     },
-    "s-props": {
-        "prefix": "s-props",
+    "ss-props": {
+        "prefix": "ss-props",
         "body": [
             "const $1 = defineProps<$2>()"
         ],
         "description": "props"
     },
-    "s-props-ts": {
-        "prefix": "s-props-ts",
+    "ss-props-ts": {
+        "prefix": "ss-props-ts",
         "body": [
             "const $1 = defineProps<$2>()"
         ],
         "description": "props with typescript"
     },
-    "s-emit": {
-        "prefix": "s-emit",
+    "ss-emit": {
+        "prefix": "ss-emit",
         "body": [
             "const $1 = defineEmit<$2>()"
         ],
         "description": "emit"
     },
-    "s-emit-ts": {
-        "prefix": "s-emit-ts",
+    "ss-emit-ts": {
+        "prefix": "ss-emit-ts",
         "body": [
             "const $1 = defineEmit<$2>()"
         ],
         "description": "emit with typescript"
     },
-    "s-context": {
-        "prefix": "s-context",
+    "ss-context": {
+        "prefix": "ss-context",
         "body": [
             "const $1 = defineContext<$2>()"
         ],
         "description": "context"
     },
-    "s-context-ts": {
-        "prefix": "s-context-ts",
+    "ss-context-ts": {
+        "prefix": "ss-context-ts",
         "body": [
             "const $1 = defineContext<$2>()"
         ],
         "description": "context with typescript"
     },
-    "s-computed": {
-        "prefix": "s-computed",
+    "ss-computed": {
+        "prefix": "ss-computed",
         "body": [
             "const $1 = computed(() => $2)"
         ],
         "description": "computed"
     },
-    "s-computed-ts": {
-        "prefix": "s-computed-ts",
+    "ss-computed-ts": {
+        "prefix": "ss-computed-ts",
         "body": [
             "const $1: Ref<$2> = computed(() => $3)"
         ],
         "description": "computed with typescript"
     },
-    "s-watch": {
-        "prefix": "s-watch",
+    "ss-watch": {
+        "prefix": "ss-watch",
         "body": [
             "watch($1, ($2) => {",
             "  $3",
@@ -78,8 +78,8 @@
         ],
         "description": "watch"
     },
-    "s-watch-getter": {
-        "prefix": "s-watch-getter",
+    "ss-watch-getter": {
+        "prefix": "ss-watch-getter",
         "body": [
             "watch(()=>$1, ($2) => {",
             "  $3",
@@ -87,22 +87,22 @@
         ],
         "description": "watch with getter"
     },
-    "s-ronly": {
-        "prefix": "s-ronly",
+    "ss-ronly": {
+        "prefix": "ss-ronly",
         "body": [
             "const $1 = readonly($2)"
         ],
         "description": "readonly"
     },
-    "s-ronly-ts": {
-        "prefix": "s-ronly-ts",
+    "ss-ronly-ts": {
+        "prefix": "ss-ronly-ts",
         "body": [
             "const $1: Readonly<Ref<$2>> = readonly($3)"
         ],
         "description": "readonly with typescript"
     },
-    "s-weffect": {
-        "prefix": "s-weffect",
+    "ss-weffect": {
+        "prefix": "ss-weffect",
         "body": [
             "watchEffect(() => {",
             "  $1",
@@ -110,8 +110,8 @@
         ],
         "description": "watchEffect"
     },
-    "s-wpeffect": {
-        "prefix": "s-wpeffect",
+    "ss-wpeffect": {
+        "prefix": "ss-wpeffect",
         "body": [
             "watchPostEffect(() => {",
             "  $1",
@@ -119,8 +119,8 @@
         ],
         "description": "watchPostEffect"
     },
-    "s-wseffect": {
-        "prefix": "s-wseffect",
+    "ss-wseffect": {
+        "prefix": "ss-wseffect",
         "body": [
             "watchSyncEffect(() => {",
             "  $1",
@@ -128,36 +128,36 @@
         ],
         "description": "watchSyncEffect"
     },
-    "s-prvd": {
-        "prefix": "s-prvd",
+    "ss-prvd": {
+        "prefix": "ss-prvd",
         "body": [
             "const $1 = provide($2, $3)"
         ],
         "description": "provide"
     },
-    "s-prvd-ts": {
-        "prefix": "s-prvd-ts",
+    "ss-prvd-ts": {
+        "prefix": "ss-prvd-ts",
         "body": [
             "const $1: InjectionKey<$2> = provide($3, $4)"
         ],
         "description": "provide with typescript"
     },
-    "s-inject": {
-        "prefix": "s-inject",
+    "ss-inject": {
+        "prefix": "ss-inject",
         "body": [
             "const $1 = inject($2, $3)"
         ],
         "description": "inject"
     },
-    "s-inject-ts": {
-        "prefix": "s-inject-ts",
+    "ss-inject-ts": {
+        "prefix": "ss-inject-ts",
         "body": [
             "const $1: Ref<$2> = inject($3, $4)"
         ],
         "description": "inject with typescript"
     },
-    "s-mnt": {
-        "prefix": "s-mnt",
+    "ss-mnt": {
+        "prefix": "ss-mnt",
         "body": [
             "onMounted(() => {",
             "  $1",
@@ -165,8 +165,8 @@
         ],
         "description": "mounted"
     },
-    "s-upd": {
-        "prefix": "s-upd",
+    "ss-upd": {
+        "prefix": "ss-upd",
         "body": [
             "onUpdated(() => {",
             "  $1",
@@ -174,8 +174,8 @@
         ],
         "description": "updated"
     },
-    "s-umnt": {
-        "prefix": "s-umnt",
+    "ss-umnt": {
+        "prefix": "ss-umnt",
         "body": [
             "onUnmounted(() => {",
             "  $1",
@@ -183,8 +183,8 @@
         ],
         "description": "unmounted"
     },
-    "s-bmnt": {
-        "prefix": "s-bmnt",
+    "ss-bmnt": {
+        "prefix": "ss-bmnt",
         "body": [
             "onBeforeMount(() => {",
             "  $1",
@@ -192,8 +192,8 @@
         ],
         "description": "beforeMount"
     },
-    "s-bupd": {
-        "prefix": "s-bupd",
+    "ss-bupd": {
+        "prefix": "ss-bupd",
         "body": [
             "onBeforeUpdate(() => {",
             "  $1",
@@ -201,8 +201,8 @@
         ],
         "description": "beforeUpdate"
     },
-    "s-bumnt": {
-        "prefix": "s-bumnt",
+    "ss-bumnt": {
+        "prefix": "ss-bumnt",
         "body": [
             "onBeforeUnmount(() => {",
             "  $1",
@@ -210,8 +210,8 @@
         ],
         "description": "beforeUnmount"
     },
-    "s-err": {
-        "prefix": "s-err",
+    "ss-err": {
+        "prefix": "ss-err",
         "body": [
             "onErrorCaptured(() => {",
             "  $1",
@@ -219,8 +219,8 @@
         ],
         "description": "onErrorCaptured"
     },
-    "s-rtrk": {
-        "prefix": "s-rtrk",
+    "ss-rtrk": {
+        "prefix": "ss-rtrk",
         "body": [
             "onRenderTracked(() => {",
             "  $1",
@@ -228,8 +228,8 @@
         ],
         "description": "onRenderTracked"
     },
-    "s-rtrg": {
-        "prefix": "s-rtrg",
+    "ss-rtrg": {
+        "prefix": "ss-rtrg",
         "body": [
             "onRenderTriggered(() => {",
             "  $1",
@@ -237,8 +237,8 @@
         ],
         "description": "onRenderTriggered"
     },
-    "s-act": {
-        "prefix": "s-act",
+    "ss-act": {
+        "prefix": "ss-act",
         "body": [
             "onActivated(() => {",
             "  $1",
@@ -246,8 +246,8 @@
         ],
         "description": "onActivated"
     },
-    "s-dact": {
-        "prefix": "s-dact",
+    "ss-dact": {
+        "prefix": "ss-dact",
         "body": [
             "onDeactivated(() => {",
             "  $1",
@@ -255,8 +255,8 @@
         ],
         "description": "onDeactivated"
     },
-    "s-spf": {
-        "prefix": "s-spf",
+    "ss-spf": {
+        "prefix": "ss-spf",
         "body": [
             "onServerPrefetch(() => {",
             "  $1",
@@ -264,71 +264,71 @@
         ],
         "description": "onServerPrefetch"
     },
-    "s-isref": {
-        "prefix": "s-isref",
+    "ss-isref": {
+        "prefix": "ss-isref",
         "body": [
             "isRef($1)"
         ],
         "description": "isRef"
     },
-    "s-unref": {
-        "prefix": "s-unref",
+    "ss-unref": {
+        "prefix": "ss-unref",
         "body": [
             "unref($1)"
         ],
         "description": "unref"
     },
-    "s-toref": {
-        "prefix": "s-toref",
+    "ss-toref": {
+        "prefix": "ss-toref",
         "body": [
             "toRef($1, $2)"
         ],
         "description": "toRef"
     },
-    "s-torefs": {
-        "prefix": "s-torefs",
+    "ss-torefs": {
+        "prefix": "ss-torefs",
         "body": [
             "toRefs($1)"
         ],
         "description": "toRefs"
     },
-    "s-isprx": {
-        "prefix": "s-isproxy",
+    "ss-isprx": {
+        "prefix": "ss-isproxy",
         "body": [
             "isProxy($1)"
         ],
         "description": "isProxy"
     },
-    "s-isrct": {
-        "prefix": "s-isrct",
+    "ss-isrct": {
+        "prefix": "ss-isrct",
         "body": [
             "isReactive($1)"
         ],
         "description": "isReactive"
     },
-    "s-isrdo": {
-        "prefix": "s-isrdo",
+    "ss-isrdo": {
+        "prefix": "ss-isrdo",
         "body": [
             "isReadonly($1)"
         ],
         "description": "isReadonly"
     },
-    "s-ssref": {
-        "prefix": "s-ssref",
+    "ss-ssref": {
+        "prefix": "ss-ssref",
         "body": [
             "shallowRef($1)"
         ],
         "description": "shallowRef"
     },
-    "s-trref": {
-        "prefix": "s-trref",
+    "ss-trref": {
+        "prefix": "ss-trref",
         "body": [
             "triggerRef($1)"
         ],
         "description": "triggerRef"
     },
-    "s-csref": {
-        "prefix": "s-csref",
+    "ss-csref": {
+        "prefix": "ss-csref",
         "body": [
             "customRef(($1) => {",
             "  return {",
@@ -339,36 +339,36 @@
         ],
         "description": "customRef"
     },
-    "s-ssrct": {
-        "prefix": "s-ssrct",
+    "ss-ssrct": {
+        "prefix": "ss-ssrct",
         "body": [
             "shallowReactive($1)"
         ],
         "description": "shallowReactive"
     },
-    "s-ssrdo": {
-        "prefix": "s-ssrdo",
+    "ss-ssrdo": {
+        "prefix": "ss-ssrdo",
         "body": [
             "shallowReadonly($1)"
         ],
         "description": "shallowReadonly"
     },
-    "s-toraw": {
-        "prefix": "s-toraw",
+    "ss-toraw": {
+        "prefix": "ss-toraw",
         "body": [
             "toRaw($1)"
         ],
         "description": "toRaw"
     },
-    "s-mkraw": {
-        "prefix": "s-mkraw",
+    "ss-mkraw": {
+        "prefix": "ss-mkraw",
         "body": [
             "markRaw($1)"
         ],
         "description": "markRaw"
     },
-    "s-efscp": {
-        "prefix": "s-efscp",
+    "ss-efscp": {
+        "prefix": "ss-efscp",
         "body": [
             "effectScope(($1) => {",
             "  $2",
@@ -376,15 +376,15 @@
         ],
         "description": "effectScope"
     },
-    "s-curscp": {
-        "prefix": "s-curscp",
+    "ss-curscp": {
+        "prefix": "ss-curscp",
         "body": [
             "getCurrentScope()"
         ],
         "description": "getCurrentScope"
     },
-    "s-ondscp": {
-        "prefix": "s-ondscp",
+    "ss-ondscp": {
+        "prefix": "ss-ondscp",
         "body": [
             "onScopeDispose(() => {",
             "  $1",

@@ -1,6 +1,6 @@
 {
-    "s-file": {
-        "prefix": "s-file",
+    "ss-file": {
+        "prefix": "ss-file",
         "body": [
             "<script setup>",
             "</script>",
@@ -13,8 +13,8 @@
         ],
         "description": "create vue script setup file content"
     },
-    "s-file-ts": {
-        "prefix": "s-file-ts",
+    "ss-file-ts": {
+        "prefix": "ss-file-ts",
         "body": [
             "<script setup lang='ts'>",
             "</script>",
